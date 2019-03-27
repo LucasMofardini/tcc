@@ -36,8 +36,15 @@
 
 
 			<div class="navbar-header">
+
+
+				<img id="img_pizza_logo" src="https://cdn4.iconfinder.com/data/icons/food-and-drink-1-2/64/pizza-food-italian-meal-512.png">
+					<p id="nome_logo">PayPizza</p>
+
+
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="background-color: white;">
 					<i class="material-icons">menu</i>
+
 				</button>
 			</div>
 
@@ -45,9 +52,12 @@
 			<nav id="links-menu" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 
+					
 					<li><a href="#"> <p class="menu_cabeça">Cardápio</p></a></li>
-					<li><a href="#" class="menu_cabeça">Promoções</a></li>
-					<li><a href="#" class="menu_cabeça">Quem Somos</a></li>
+					<li><a href="#"> <p  class="menu_cabeça">Promoções</p></a></li>
+					<li><a href="#"> <p class="menu_cabeça">Quem Somos</p></a></li>
+		
+				
 					<li><a href="#" class="menu_cabeça"><i class="material-icons" style="color: white;">shopping_cart</i></a></li>
 
 				</ul>
