@@ -1,6 +1,6 @@
-
 body{
-margin: 0;
+	margin: 0;
+	background-color: #FFFAFA;
 }
 .corpo{
 	margin: 0 auto;
@@ -41,10 +41,10 @@ header{
 	padding: 3px;
 	padding-left: 10px;
 	padding-right:  10px;
-	border: solid black 0.5px; 
-	
+	border: solid black 0.5px;
+
 	box-shadow: 3px 6px 5px black ;
-	
+
 
 }
 
@@ -52,16 +52,16 @@ header{
 	margin-top: 15vh;
 	width: 70%;
 	min-height: 30%;
-	border-radius: 5%;	
+	border-radius: 5%;
 	min-width: 90%;
-	
+
 
 
 }
 header #pizza-pequena{
 	width: 30%;
 	margin-top: 1vh;
-	
+
 
 
 }
@@ -69,37 +69,37 @@ li{
 	font-size: 14px;
 }
 .imagens-siameses{
-		margin-top: 1vh;
+	margin-top: 1vh;
 	width: 44.9%;
-
-	border-radius: 5%;	
-	
-
+	border-radius: 5%;
 	padding:5px;
 	height: 50vh;
-
-min-height: 30%;
-	
-	
-	
+  	min-height: 30%;
 
 }
+div .navbar{
+    box-shadow: 0px 2px 5px rgb(0,0,0);
+}
 @media screen and (max-width: 800px) {
-	.imagens-siameses{
-		margin-top: 1vh;
-	width: 44.9%;
 
-	border-radius: 15%;	
-	
-
-	padding:3px;
-	height: 15vh;
-
-	
-	
-	
-
+  	.imagens-siameses{
+    	margin-top: 1vh;
+    	width: 44.9%;
+    	border-radius: 15%;
+    	padding:3px;
+    	height: 15vh;
+}
+.corpo{
+  width: 100%;
+  /* Talvez eu deixe grande */
+}
+.imagens-siameses{
+  height: 20vh;
+}
+div .navbar{
+    box-shadow: 0px 1.5px 5px rgb(0,0,0);
 }
 
 	}
+
 
