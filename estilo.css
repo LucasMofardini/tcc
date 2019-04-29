@@ -80,6 +80,26 @@ li{
 div .navbar{
     box-shadow: 0px 2px 5px rgb(0,0,0);
 }
+.promocoes{
+	width: 89%;
+	height: 150px;
+	background-color: black;
+	margin-left: 8vh;
+	border-radius: 3%;
+}
+.cardapio-corpo{
+	margin-top: 15vh;
+	width: 100%;
+	height: 800px;
+	background-color: pink;
+
+}
+.pizza-cardapio{
+
+	width: 100%;
+	height: 5vh;
+	background-color: black;
+}
 @media screen and (max-width: 800px) {
 
   	.imagens-siameses{
@@ -88,6 +108,7 @@ div .navbar{
     	border-radius: 15%;
     	padding:3px;
     	height: 15vh;
+
 }
 .corpo{
   width: 100%;
@@ -99,7 +120,13 @@ div .navbar{
 div .navbar{
     box-shadow: 0px 1.5px 5px rgb(0,0,0);
 }
+.promocoes{
+	width: 89%;
+	height: 100px;
+	background-color: black;
+	margin-left:3vh;
+	border-radius: 3%;
+	display: none;
+}
 
 	}
-
-
