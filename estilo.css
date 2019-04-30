@@ -107,6 +107,7 @@ div .navbar{
 	color: black;
 	border: 1px solid gray;
 	border-radius: 10px;
+	transition: transform 0.3s linear 0.1s;
 
 
 }
@@ -114,7 +115,10 @@ div .navbar{
 	color: white;
 	background-color: #B2002A;
 	transition: 0.4s;
-	box-shadow: 3px 6px 5px gray ;
+	box-shadow: 3px 6px 5px gray;
+	transform: scale(1.03);
+
+
 }
 #pizza-icon-cardapio{
 	width: 20vh;
