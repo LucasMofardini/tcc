@@ -91,14 +91,33 @@ div .navbar{
 	margin-top: 15vh;
 	width: 100%;
 	height: 800px;
-	background-color: pink;
+	/* background-color: pink; */
 
 }
 .pizza-cardapio{
 
 	width: 100%;
-	height: 5vh;
-	background-color: black;
+	height: 8vh;
+
+}
+.pizza-cardapio p {
+	font-size: 30px;
+	color: white;
+	padding: 4px;
+	color: black;
+	border: 1px solid gray;
+	border-radius: 10px;
+
+
+}
+.pizza-cardapio p:hover {
+	color: white;
+	background-color: #B2002A;
+	transition: 0.4s;
+	box-shadow: 3px 6px 5px gray ;
+}
+#pizza-icon-cardapio{
+	width: 20vh;
 }
 @media screen and (max-width: 800px) {
 
@@ -128,5 +147,9 @@ div .navbar{
 	border-radius: 3%;
 	display: none;
 }
+#pizza-icon-cardapio{
+	width: 15vh;
+}
 
 	}
+
