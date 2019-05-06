@@ -131,11 +131,19 @@
         </div>
 
       </div>
-
+      <footer>
+        
+         Raphael Rodrigues & Lucas Mofardini
+      </footer>
 </html>
 
 <style>
-  
+footer{
+  background-color: rgb(183,12,40);
+  color: white;
+  margin-bottom:0px;
+  text-align: center;
+}
 
 body{
     margin:0 auto;
@@ -158,6 +166,7 @@ form{
 
 }
 form{
+  margin-top: 6vh;
 box-shadow: 3px 6px 5px black ;
 background-color:  #F0F8FF;
 }
