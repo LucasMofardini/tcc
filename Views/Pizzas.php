@@ -15,7 +15,7 @@ include_once('../Views/cabecalho.php');
 
       <tr>
         <br>
-                <img class="img-padrao"src="https://extra.globo.com/incoming/20107439-a1f-5a2/w488h275-PROP/pizza.jpg" >
+                <img class="img-padrao"src="https://conteudo.imguol.com.br/3d/2017/07/07/pizza-de-calabresa-charles-pizzas-1499449903329_v2_1200x800.jpg" >
                 <br><br>
                 <center>
 
@@ -38,12 +38,13 @@ include_once('../Views/cabecalho.php');
           </center>
 
       </tr>
+      <br><br><br>
       </div>
       <div style="float:right">
 
           <tr>
             <br>
-                    <img class="img-padrao"src="https://extra.globo.com/incoming/20107439-a1f-5a2/w488h275-PROP/pizza.jpg" >
+                    <img class="img-padrao"src="http://www.portalumami.com.br/wp-content/uploads/2013/03/PIZZA-QUATRO-QUEIJOS-659x371.jpg" >
                     <br><br>
                       <center>
                   <td class="padrao" >Nome: <span class="nome-Pizzas">Calabresa</span>  </td> <br>
@@ -62,6 +63,7 @@ include_once('../Views/cabecalho.php');
               </form>
             </center>
           </tr>
+          <br><br><br>
           </div>
     <br><br><br>
 
@@ -87,9 +89,17 @@ font-size: 16px;
 .padrao{
   font-family: beloved;
 }
+button{
+  	transition: transform 0.3s linear 0.1s;
+}
+button:hover{
+  transform: scale(1.02);
+  transition: 0.6s;
+}
 
 .img-padrao{
   width: 30em;
+  height: 20em;
   border-radius: 1%;
   	transition: transform 0.3s linear 0.1s;
 }
