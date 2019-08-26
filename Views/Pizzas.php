@@ -51,7 +51,7 @@ include_once('../Views/cabecalho.php');
                   <td class="padrao"> Preço: <span class="preco-pizza">R$30,00 </span>    </td><br>
 
 
-                  <a id="editar-produtos" href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br>
+                  <a id="editar-produtos" href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br><br>]
               <form class='' action='../Controller/DeletarPHP.php' method='get'>
                 <button  class="button" type='submit' value=  .$imp2['ProdutoID'].   name='apagar'>Deletar</button>
               </form>
