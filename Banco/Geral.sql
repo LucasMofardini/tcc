@@ -55,6 +55,8 @@ CompraID int primary key auto_increment,
 Sessao int unique,
 Total int,
 ClienteID int,
+Statuss int default 1,
+horario varchar(35),
 foreign key(ClienteID) references Cliente(ClienteID)
 );
 #select * from carrinho inner join Produto where Carrinho.ProdutoID = Produto.ProdutoID;
@@ -75,5 +77,7 @@ INSERT INTO `Categoria` (`CategoriaID`, `Nomee`) VALUES ('2', 'Pizzas Doces');
 INSERT INTO `Categoria` (`CategoriaID`, `Nomee`) VALUES ('3', 'Bebidas');
 INSERT INTO `Categoria` (`CategoriaID`, `Nomee`) VALUES ('4', 'Outros');
 /*Conta Master*/
-INSERT INTO `Funcionario` (`FuncionarioID`, `Nivel`, `Nome`, `Nascimento`, `Salario`, `Endereço`, `Senha`, `Usuario`) VALUES ('1', '4', 'PayPizza', '01012019', '0', 'UNASP', '123', 'paypizza');
+select * from compra  ;
+insert into Produto values(1,'py',1,21,'fds');
+INSERT INTO `Funcionario` (`FuncionarioID`, `Nivel`, `Nome`, `Nascimento`, `Salario`, `Endereço`, `Senha`, `Usuario`) VALUES ('1', '4', 'PayPizza', '2019-01-01', '0', 'UNASP', '123', 'paypizza');
 

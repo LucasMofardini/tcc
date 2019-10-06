@@ -11,28 +11,28 @@ include_once('../Views/cabecalho.php');
 
 
 ?>
-  <div style="float:left">
+  <!-- <div style='float:left'>
 
       <tr>
         <br>
-                <img class="img-padrao"src="https://conteudo.imguol.com.br/3d/2017/07/07/pizza-de-calabresa-charles-pizzas-1499449903329_v2_1200x800.jpg" >
+                <img class='img-padrao'src='https://conteudo.imguol.com.br/3d/2017/07/07/pizza-de-calabresa-charles-pizzas-1499449903329_v2_1200x800.jpg' >
                 <br><br>
                 <center>
 
-              <td class="padrao" >Nome: <span class="nome-Pizzas">Calabresa</span>  </td> <br>
-              <td class="padrao"> Preço: <span class="preco-pizza">R$30,00 </span>    </td><br>
+              <td class='padrao' >Nome: <span class='nome-Pizzas'>Calabresa</span>  </td> <br>
+              <td class='padrao'> Preço: <span class='preco-pizza'>R$30,00 </span>    </td><br>
 
 
-              <a id="editar-produtos" href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br><br>
+              <a id='editar-produtos' href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br><br>
 
 
           <form class='' action='../Controller/DeletarPHP.php' method='get'>
-            <button  class="button" type='submit' value=  .$imp2['ProdutoID'].   name='apagar'>Deletar</button>
+            <button  class='button' type='submit' value=  .$imp2['ProdutoID'].   name='apagar'>Deletar</button>
           </form>
 
           <form class='' action='#' method='get'>
             <br>
-            <button class="button" type='submit' value=  .$imp2['ProdutoID'].   name='Carrinho'>Adicionar ao carrinho</button>
+            <button class='button' type='submit' value=  .$imp2['ProdutoID'].   name='Carrinho'>Adicionar ao carrinho</button>
             <br>
           </form>
           </center>
@@ -40,32 +40,32 @@ include_once('../Views/cabecalho.php');
       </tr>
       <br><br><br>
       </div>
-      <div style="float:right">
+      <div style='float:right'>
 
           <tr>
             <br>
-                    <img class="img-padrao"src="http://www.portalumami.com.br/wp-content/uploads/2013/03/PIZZA-QUATRO-QUEIJOS-659x371.jpg" >
+                    <img class='img-padrao'src='http://www.portalumami.com.br/wp-content/uploads/2013/03/PIZZA-QUATRO-QUEIJOS-659x371.jpg' >
                     <br><br>
                       <center>
-                  <td class="padrao" >Nome: <span class="nome-Pizzas">Calabresa</span>  </td> <br>
-                  <td class="padrao"> Preço: <span class="preco-pizza">R$30,00 </span>    </td><br>
+                  <td class='padrao' >Nome: <span class='nome-Pizzas'>Calabresa</span>  </td> <br>
+                  <td class='padrao'> Preço: <span class='preco-pizza'>R$30,00 </span>    </td><br>
 
 
-                  <a id="editar-produtos" href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br><br>]
+                  <a id='editar-produtos' href='Atualizar.php?id=  .$imp2['ProdutoID'].  '>Editar Produto</a><br><br>]
               <form class='' action='../Controller/DeletarPHP.php' method='get'>
-                <button  class="button" type='submit' value=  .$imp2['ProdutoID'].   name='apagar'>Deletar</button>
+                <button  class='button' type='submit' value=  .$imp2['ProdutoID'].   name='apagar'>Deletar</button>
               </form>
 
               <form class='' action='#' method='get'>
                 <br>
-                <button class="button" type='submit' value=  .$imp2['ProdutoID'].   name='Carrinho'>Adicionar ao carrinho</button>
+                <button class='button' type='submit' value=  .$imp2['ProdutoID'].   name='Carrinho'>Adicionar ao carrinho</button>
                 <br>
               </form>
             </center>
           </tr>
           <br><br><br>
           </div>
-    <br><br><br>
+    <br><br><br> -->
 
 <style>
 @font-face {

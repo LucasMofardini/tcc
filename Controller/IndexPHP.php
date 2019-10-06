@@ -25,7 +25,9 @@ else{
     echo "";
   }
  if($_SESSION['logado']==false){
-    echo '<a href = "Views/Login.php">Você está desconectado,FAÇA O LOGIN</a>';
+    echo '<div style="position:fixed; top:30em;" class="login-fixo"><a href = "Views/Login.php" style="color:#B2002A;"> <img class="" style="width:2em;" src="../Views/imagens/iconlogin.png" class="img-fluid" alt="Imagem responsiva"> Faça o login 	</a> </div>';
+   
+
   }
 
   if($_SESSION['logado'] == true)

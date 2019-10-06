@@ -1,5 +1,7 @@
 
 <?php
+//del apaga do Carrinho
+//apagar apaga de tudo
 include('config.php');
         include_once('UndefinedDeslogadoPHP.php');
 
@@ -28,6 +30,6 @@ echo "Produto deletado com sucesso! <br>
 
 }
 }
-
+echo " <a href='../Views/Cardapio.php'><small>Voltar para o cardápio</small></a>"
 
 ?>

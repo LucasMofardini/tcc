@@ -19,8 +19,8 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-	<link rel="stylesheet" type="text/css" href="Views/estilo.css">
-	<link rel="icon"  href="https://image.flaticon.com/icons/png/512/99/99954.png">
+
+	<link rel="icon"  href="Views/imagens/pizza-logo.png">
 	<link rel="stylesheet" type="text/css" href="Views/estilo.css">
 
 
@@ -74,16 +74,19 @@
 				</nav>
 				<header>
 					<div class="imagens-side-menu">
+
 						<div class="text-center">
-								<img class="imagem-pizza" src="http://cdn.delivoro.com.br/f/public/arquivos/6e0218da0/img/prato/23938.jpg" class="img-fluid" alt="Imagem responsiva">
+
+								<img class="imagem-pizza" src="Views/imagens/pizza1.jpeg" class="img-fluid" alt="Imagem responsiva">
 						</div>
 					</div>
 					<div class="imagens-side-menu">
 						<div class="text-center">
-								<img class="imagens-siameses"src="https://www.ofaraopizzaria.com.br/fotos/pizza%20chamada.jpg" class="rounded float-left imagem-pizza" alt="...">
-								<img  class="imagens-siameses" src="https://s3-sa-east-1.amazonaws.com/delivery-direto/img/items/5c2502e000da6.jpeg" class="rounded float-right imagem-pizza" alt="...">
+								<img class="imagens-siameses"src="Views/imagens/pizza2.jpeg" class="rounded float-left imagem-pizza" alt="...">
+								<img  class="imagens-siameses" src="Views/imagens/pizza3.jpg" class="rounded float-right imagem-pizza" alt="...">
 						</div>
 					</div>
+
               <div class="promocoes">
 
               </div>
@@ -98,7 +101,6 @@
 
 
           </div>
-
 </body>
 
 </html>

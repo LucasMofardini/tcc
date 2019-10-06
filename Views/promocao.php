@@ -11,7 +11,9 @@ include_once('../Controller/config.php');
 </head>
 <body>
 	<center>
+		<br><br>
  		<h1>PROMOÇÕES</h1>
+		<img src="imagens/promo.jpg" class="" alt="">
 	</center>
 </body>
 </html>
@@ -26,6 +28,7 @@ font-family: beloved;
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
 		font-family:  beloved;
+		width: 100%;
 
 	}
 	h1:hover{
@@ -35,5 +38,8 @@ font-family: beloved;
 h1	{
 			transition: transform 0.3s linear 0.1s;
 }
+img{
+	border-radius: 10px;
 
+}
 </style>

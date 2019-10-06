@@ -15,16 +15,16 @@ include_once('../Controller/config.php');
       <div class="div-raphael">
         <center>
 
-        <h2 id="nome-raphael">Raphael Barbosa Rodrigues</h2>
+        <h2 class="nome-raphael">Raphael Barbosa Rodrigues</h2>
 
       </center>
-        <img id="img-raphael" class="fotos-criadores col-7" src="https://avatars3.githubusercontent.com/u/42044496?s=400&v=4" alt="Raphael">
+        <img class="img-raphael" class="fotos-criadores col-7" src="https://avatars3.githubusercontent.com/u/42044496?s=400&v=4" alt="Raphael">
 
 				<center>
 
-						<p class="texto-rapha">Olá,meu nome é Raphael Barbosa Rodrigues e estou cursando o 3º ano do ensino médio , <br>
-							integrado a t.i, não possuo experiência profissional relacionada a t.i, <br>
-							contudo já desenvolvi diversos projetos na área, faço curso de inglês a quase três anos e <br>
+						<p class="texto-rapha">Olá,meu nome é Raphael Barbosa Rodrigues e estou cursando o 3º ano do ensino médio ,
+							integrado a t.i, não possuo experiência profissional relacionada a t.i,
+							contudo já desenvolvi diversos projetos na área, faço curso de inglês a quase três anos e
 							 me considero em um nível entre intermediário e avançado no idioma.</p>
 				</center>
       </div>
@@ -34,17 +34,14 @@ include_once('../Controller/config.php');
 			<div class="div-raphael">
 				<center>
 
-				<h2 id="nome-raphael">Lucas Gabriel M. de Almeida</h2>
+				<h2 class="nome-raphael">Lucas Gabriel M. de Almeida</h2>
 
 			</center>
-				<img id="img-raphael" class="fotos-criadores "width="400px" src="https://pbs.twimg.com/profile_images/618982505388056576/8-ZCX5pc_400x400.jpg" alt="Raphael">
+				<img class="img-raphael" class="fotos-criadores "width="400px" src="https://pbs.twimg.com/profile_images/618982505388056576/8-ZCX5pc_400x400.jpg" alt="Raphael">
 
 				<center>
 
-						<p class="texto-rapha">Olá,meu nome é Raphael Barbosa Rodrigues e estou cursando o 3º ano do ensino médio , <br>
-							integrado a t.i, não possuo experiência profissional relacionada a t.i, <br>
-							contudo já desenvolvi diversos projetos na área, faço curso de inglês a quase três anos e <br>
-							 me considero em um nível entre intermediário e avançado no idioma.</p>
+						<p class="texto-rapha">Meu nome é Lucas Gabriel Mofardini de Almeida, nasci em São Paulo e tenho como objetivo primário ser desenvolvedor web. Atualmente estou cursando Etec em desenvolvimento de sistemas, estou terminando o ensino médio integrado ao técnico em informática e também fiz 1 ano de curso no Alura, onde foquei bastante na área do front-end, mas não deixando de lado o back-end.</p>
 				</center>
 			</div>
 
@@ -98,16 +95,16 @@ img{
 .arrumar{
 	margin-top: 35em;
 }
-#img-raphael{
+.img-raphael{
   float:right;
 	transition: transform 0.3s linear 0.1s;
 
 }
-#img-raphael:hover{
+.img-raphael:hover{
 	transform: scale(1.02);
 	transition: 0.6s;
 }
-#nome-raphael{
+.nome-raphael{
   float:left;
   position: relative;
 	margin-left: 2.5em;
@@ -121,6 +118,7 @@ img{
 	text-align: center;
 	position: relative;
 	margin-top: 5em;
+	width: 500px;
 }
 .texto-lucas{
 	float: right;
@@ -134,7 +132,7 @@ img{
 	position: relative;
 	margin-top: 12em;
 }
-#nome-lucas{
+.nome-lucas{
 	float:right;
 	position: relative;
 	margin-left:12em;
@@ -148,6 +146,14 @@ img{
 @media screen and (max-width: 800px){
 	.titulo{
 width: 100%;
+	}
+	.img-raphael{
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	h2{
+
 	}
 }
 </style>

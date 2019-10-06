@@ -4,6 +4,7 @@
  <?php
 
                     include_once('../Controller/config.php');
+                     // include_once('cabecalho.php');
 
                     ?>
     <meta charset="utf-8">
@@ -42,38 +43,39 @@
       <div class="corpo">
 
         <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #B2002A; border-bottom: 0px;" >
-          <div class="container">
+					<div class="container">
 
 
-            <div class="navbar-header">
+						<div class="navbar-header">
 
 
-            <a href="../index.php">  <img id="img_pizza_logo" src="https://cdn4.iconfinder.com/data/icons/food-and-drink-1-2/64/pizza-food-italian-meal-512.png"></a>
-               <a href="../index.php">  <p id="nome_logo">PayPizza</p></a>
+							<a href="../index.php">	<img id="img_pizza_logo" src="https://cdn4.iconfinder.com/data/icons/food-and-drink-1-2/64/pizza-food-italian-meal-512.png">
+								<p id="nome_logo">PayPizza</p> </a>
 
 
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="background-color: white;">
-                <i class="material-icons">menu</i>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu" style="background-color: white;">
+								<i class="material-icons">menu</i>
 
-              </button>
-            </div>
-
-
-            <nav id="links-menu" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
+							</button>
+						</div>
 
 
-                    <li><a href="cardapio.php"> <p class="menu_cabeça"> Cardápio </p></a></li>
-                <li><a href="#"> <p  class="menu_cabeça">Promoções</p></a></li>
-                <li><a href="#"> <p class="menu_cabeça">Quem Somos</p></a></li>
+						<nav id="links-menu" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav navbar-right">
 
 
-                <li><a href="#" class="menu_cabeça"><i class="material-icons" style="color: white;">shopping_cart</i></a></li>
+								<li><a href="cardapio.php"> <p class="menu_cabeça"> Cardápio</p></a> </li>
+								<li><a href="promocao.php"> <p  class="menu_cabeça">Promoções</p></a></li>
+								<li><a href="quem.php"> <p class="menu_cabeça">Quem Somos</p></a></li>
 
-              </ul>
-            </nav>
-          </div>
-        </nav>
+
+								 <li><a href="carrinho.php" class="menu_cabeça"><i class="material-icons" style="color: white;">shopping_cart</i></a></li>
+                  <li><a href="Login.php"> <p class="menu_cabeça pessoa"><i class="material-icons" style="color: white;">person</i></a></li>
+
+							</ul>
+						</nav>
+					</div>
+				</nav>
 
 
 
@@ -109,8 +111,8 @@
 
 
                     </form> -->
-<br>
-                    <form method="post">
+
+                    <!-- <form method="post">
 
                       <h1>Cadastro</h1><br><br>
     <div class="form-row">
@@ -183,21 +185,67 @@
     </div>
     <button class="btn btn-primary" type="submit">Enviar</button>
   </form>
+  <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Label exemplo</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input exemplo">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Outra label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Outro input">
+  </div>
+</form> -->
 
+<!-- LUCAS E RAPHAEL DO FUTURO SE ESSE CODIGO DE BAIXO NAO RUNFAR COMENTA O DE BAIXO E DESCOMENTA O DE CIMA QUE TA FUNFANDO. cabo. -->
+<form method="get" action="Cadastro.php">
+<center>
+  <h1>Cadastro</h1>
+  <br><br>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Nome de usuario</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Exemplo : Lucas " required autofocus>
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Senha</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Exemplo : A12b34c">
+  </div>
+  <div class="form-group">
+        <i class="material-icons">home</i>
+      <label for="formGroupExampleInput2">Endereço </label>
+      <input type="text" name="endereço" id="i3" class="form-control" placeholder="Endereço"/>
+  </div>
 
+  <div class="form-group">
+      <i class="material-icons">add_location  </i>
+    <label for="formGroupExampleInput2">Numero da sua casa</label>
+
+    <input type="text" name="ncasa" id="i4" class="form-control" placeholder="Número da casa"/><br><br>
+  </div>
+  <div class="form-group">
+
+      <label for="formGroupExampleInput2">Nome Completo </label>
+      <input type="text" name="endereço" name="nome" id="i3" class="form-control" placeholder="Exemplo : Lucas Gabriel Mofardini de Almeida"/>
+  </div>
+  <div class="form-group">
+
+      <label for="formGroupExampleInput2">* CEP</label>
+  <input type="text" class="form-control " id="validationServer05"  name="cep" placeholder="CEP" required>
+  </div>
+
+  <button type="submit" class="btn btn-primary ">Enviar</button>
+</center>
+</form>
 
 
         </div>
 
 
-      <footer>
-         Raphael Rodrigues & Lucas Mofardini
-      </footer>
+
 </html>
 
 <style>
 
-footer{
+/* footer{
   background-color: rgb(183,12,40);
   color: white;
   margin-bottom:0px;
@@ -215,14 +263,17 @@ body{
     margin:0 auto;
 
 }
-form{
-
+*/
+ form{
+margin: 0 auto;
     text-align:center;
-    border:1px solid black;
+    /* border:1px solid black; */
+
     height:500px;
-    width:1000px;
+    width:100%;;
 
 }
+/*
 .input{
     /* height:20px;
     width:300px;
@@ -248,8 +299,8 @@ h1{
   width: 100%;
 }
 i{
-  position: absolute;
-  margin-left: -28px;
+  /* position: absolute; */
+  /* margin-left: -28px; */
 }
 
 
@@ -414,7 +465,7 @@ div .navbar{
 #pizza-icon-cardapio{
   width: 15vh;
 }
-
+ */
 
 </style>
 

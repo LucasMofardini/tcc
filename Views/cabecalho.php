@@ -61,12 +61,12 @@ echo"<html>
 
 
 										<li><a href='cardapio.php'> <p class='menu_cabeça'> Cardápio </p></a></li>
-								<li><a href='#'> <p  class='menu_cabeça'>Promoções</p></a></li>
-								<li><a href='#'> <p class='menu_cabeça'>Quem Somos</p></a></li>
+								<li><a href='promocao.php'> <p  class='menu_cabeça'>Promoções</p></a></li>
+								<li><a href='quem.php'> <p class='menu_cabeça'>Quem Somos</p></a></li>
 
 
-								<li><a href='#' class='menu_cabeça'><i class='material-icons' style='color: white;'>shopping_cart</i></a></li>
-                  <li><a href='#'> <p class='menu_cabeça pessoa'><i class='material-icons' style='color: white;'>person</i></a></li>
+								<li><a href='Carrinho.php' class='menu_cabeça'><i class='material-icons' style='color: white;'>shopping_cart</i></a></li>
+                  <li><a href='Login.php'> <p class='menu_cabeça pessoa'><i class='material-icons' style='color: white;'>person</i></a></li>
 
 							</ul>
 						</nav>
